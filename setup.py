@@ -12,7 +12,9 @@ setup(
     license='MIT',
     author='Ge Li @ ALR, KIT',
     author_email='ge.li@kit.edu',
-    install_requires=[],
+    install_requires=[
+    	"addict"
+    ],
 
     # README.md
     description='The Movement Primitives Package in PyTorch',
